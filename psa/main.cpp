@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    read_Jobdata();
 
     return 0;
 }
