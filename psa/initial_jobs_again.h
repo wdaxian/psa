@@ -1,0 +1,6 @@
+#ifndef INITIAL_JOBS_AGAIN_H_INCLUDED
+#define INITIAL_JOBS_AGAIN_H_INCLUDED
+
+void initial_jobs_again();
+
+#endif // INITIAL_JOBS_AGAIN_H_INCLUDED

@@ -1,0 +1,6 @@
+#ifndef READ_JOBDATA_H_INCLUDED
+#define READ_JOBDATA_H_INCLUDED
+
+void read_Jobdata();
+
+#endif // READ_JOBDATA_H_INCLUDED

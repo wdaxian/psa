@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1606291996 source:d:\desktop\psa\fcfs.cpp
+	<iostream>
+	<algorithm>
+	"node.h"
+	"global.h"
+	"initial_jobs_again.h"
+
+1606292508 source:d:\desktop\psa\global.cpp
+	"node.h"
+
+1606221951 d:\desktop\psa\node.h
+
+1606224615 source:d:\desktop\psa\initial_jobs.cpp
+	"node.h"
+	"global.h"
+
+1606292905 d:\desktop\psa\global.h
+
+1606288079 source:d:\desktop\psa\initial_jobs_again.cpp
+	"node.h"
+	"global.h"
+
+1606292009 source:d:\desktop\psa\main.cpp
+	<iostream>
+	"node.h"
+	"initial_jobs.h"
+	"read_Jobdata.h"
+
+1606208083 d:\desktop\psa\initial_jobs.h
+
+1606289502 source:d:\desktop\psa\read_jobdata.cpp
+	<fstream>
+	<iostream>
+	"node.h"
+	"global.h"
+	"initial_jobs.h"
+
+1606228260 d:\desktop\psa\initial_jobs_again.h
+
+1606289169 source:d:\desktop\psa\_sleep.cpp
+	<time.h>
+
+1606288846 d:\desktop\psa\_sleep.h
+
+1606209981 d:\desktop\psa\read_jobdata.h
+
+1606292468 source:d:\desktop\psa\findnextsjf.cpp
+

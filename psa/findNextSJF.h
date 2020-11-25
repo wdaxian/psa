@@ -1,0 +1,6 @@
+#ifndef FINDNEXTSJF_H_INCLUDED
+#define FINDNEXTSJF_H_INCLUDED
+
+int findNextSJF(job,int,int);
+
+#endif // FINDNEXTSJF_H_INCLUDED
