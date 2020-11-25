@@ -3,7 +3,7 @@
 #include "node.h"
 #include "global.h"
 
-#define inf 0x3f3f3f
+
 
 int findNextSJF(job jobs[100],int length,int time)
 {

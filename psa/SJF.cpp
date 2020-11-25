@@ -4,6 +4,7 @@
 #include<algorithm>
 #include "node.h"
 #include "global.h"
+#include "findNextSJF.h"
 #include "initial_jobs_again.h"
 using namespace std;
 

@@ -56,7 +56,7 @@
 
 1606221951 f:\githubrepo\psa\psa\node.h
 
-1606292905 f:\githubrepo\psa\psa\global.h
+1606307591 f:\githubrepo\psa\psa\global.h
 
 1606228260 f:\githubrepo\psa\psa\initial_jobs_again.h
 
@@ -87,4 +87,18 @@
 	"node.h"
 	"global.h"
 	"initial_jobs.h"
+
+1606308279 source:f:\githubrepo\psa\psa\findnextsjf.cpp
+	"node.h"
+	"global.h"
+
+1606308323 source:f:\githubrepo\psa\psa\sjf.cpp
+	<iostream>
+	<algorithm>
+	"node.h"
+	"global.h"
+	"findNextSJF.h"
+	"initial_jobs_again.h"
+
+1606308291 f:\githubrepo\psa\psa\findnextsjf.h
 
