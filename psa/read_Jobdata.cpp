@@ -2,6 +2,8 @@
 
 #include<fstream>
 #include<iostream>
+#include<fstream>
+#include<vector>
 #include "node.h"
 #include "global.h"
 #include "initial_jobs.h"
@@ -10,35 +12,30 @@ using namespace std;
 void read_Jobdata()
 {
 
-    FILE *f;
-    f=fopen("./test.txt","r");
-    if(f==NULL){
-        cout<<"fail to open the file"<<endl;
-        exit(0);
-    }
-    char buffer[100];
-    cout<<"start reading ..."<<endl;
-    //fgets(buffer,MAX_LINE,f);
-                            /*char *fgets (char *string,int size,FILE *stream)
-                            * string 为一个字符数组，用来保存读取到的字符
-                            * size 为要读取的字符的个数
-                            * stream 为文件流指针*/
-    num=0;
-    num++;
+    ifstream file;
+    vector<int> p;//
+    int number;
+    char bf[100];
 
-//    while(!feof(f)){
-//                    /*int feof(FILE *stream)
-//                    * 测试给定流stream的文件结束标识符*/
-//        cout<<jobs[num].number<<" "<<jobs[num].reach_time<<" "<<jobs[num].need_time<<" "<<jobs[num].privilege<<endl;
-//        num++;
-//    }
-//    num--;
-
-    cout<<"read data success!"<<endl;
-    cout<<"the number of jobs is:"<<num<<endl;
-    for(int j=1;j<=num;j++){
-        cout<<jobs[j].number<<"\t"<<jobs[j].reach_time<<"\t"<<jobs[j].need_time<<"\t"<<jobs[j].privilege<<endl;
+    file.open("test.txt");//打开文件
+    file.getline(bf,100);//读取第一行 不输出
+    while(!file.eof()){
+        file>>number;//读取一个数字
+        p.push_back(number);//读入数组
+        //cout<<number<<endl;
     }
-    fclose(f);
+    //for(int i=0;i<=p.size()-1;++i){cout<<p[i]<<" ";}
+    //将vector输入到jobs中
+    int p_size=p.size();
+    for(int i=0;i<p_size;i+=4){
+        jobs[i/4+1].number=p[i];
+        jobs[i/4+1].reach_time=p[i+1];
+        jobs[i/4+1].need_time=p[i+2];
+        jobs[i/4+1].privilege=p[i+3];
+        //cout<<p[i];
+    }
+    //cout<<endl;
+    //cout<<jobs[2].number;
+
 
 }

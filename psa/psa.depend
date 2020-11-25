@@ -102,3 +102,60 @@
 
 1606308291 f:\githubrepo\psa\psa\findnextsjf.h
 
+1606308534 source:c:\users\tao\desktop\psa\psa\fcfs.cpp
+	<iostream>
+	<algorithm>
+	"node.h"
+	"global.h"
+	"initial_jobs_again.h"
+
+1606308534 c:\users\tao\desktop\psa\psa\node.h
+
+1606308534 c:\users\tao\desktop\psa\psa\global.h
+
+1606308534 c:\users\tao\desktop\psa\psa\initial_jobs_again.h
+
+1606308534 source:c:\users\tao\desktop\psa\psa\findnextsjf.cpp
+	"node.h"
+	"global.h"
+
+1606308534 source:c:\users\tao\desktop\psa\psa\global.cpp
+	"node.h"
+
+1606308534 source:c:\users\tao\desktop\psa\psa\initial_jobs.cpp
+	"node.h"
+	"global.h"
+
+1606308534 source:c:\users\tao\desktop\psa\psa\initial_jobs_again.cpp
+	"node.h"
+	"global.h"
+
+1606309129 source:c:\users\tao\desktop\psa\psa\main.cpp
+	<iostream>
+	"node.h"
+	"initial_jobs.h"
+	"read_Jobdata.h"
+
+1606308534 c:\users\tao\desktop\psa\psa\initial_jobs.h
+
+1606308534 c:\users\tao\desktop\psa\psa\read_jobdata.h
+
+1606311156 source:c:\users\tao\desktop\psa\psa\read_jobdata.cpp
+	<fstream>
+	<iostream>
+	<fstream>
+	<vector>
+	"node.h"
+	"global.h"
+	"initial_jobs.h"
+
+1606308534 source:c:\users\tao\desktop\psa\psa\sjf.cpp
+	<iostream>
+	<algorithm>
+	"node.h"
+	"global.h"
+	"findNextSJF.h"
+	"initial_jobs_again.h"
+
+1606308534 c:\users\tao\desktop\psa\psa\findnextsjf.h
+
