@@ -7,12 +7,11 @@
 #include "findNextSJF.h"
 #include "initial_jobs_again.h"
 using namespace std;
-
+//你就这
 void SJF()
 {
     int i,j;
-    int finish=inf; //当前完成时间
-
+    int finish=inf; //完成时间
     for(i=1;i<=num;i++){
         finish=min(finish,jobs[i].reach_time);
     }
