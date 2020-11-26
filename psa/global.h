@@ -2,7 +2,7 @@
 #define GLOBAL_H_INCLUDED
 
 #define inf 0x3f3f3f
-extern int num;
+extern int num;//½ø³ÌÊý
 extern job jobs[];
 extern int ready[];
 extern int order[];

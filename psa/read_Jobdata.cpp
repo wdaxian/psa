@@ -34,8 +34,8 @@ void read_Jobdata()
         jobs[i/4+1].privilege=p[i+3];
         //cout<<p[i];
     }
-    //cout<<endl;
-    cout<<jobs[2].number;
+
+
 
 
 }
