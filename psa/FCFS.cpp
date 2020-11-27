@@ -9,9 +9,9 @@ using namespace std;
 
 void FCFS()
 {
-    int i=0;
+    int i;
 
-    for(i=1;i<num;i++){
+    for(i=1;i<=num;i++){
         order[i]=jobs[i].reach_time;
         ready[i]=i;
     }

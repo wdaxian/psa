@@ -7,7 +7,7 @@
 #include "findNextSJF.h"
 #include "initial_jobs_again.h"
 using namespace std;
-//Äã¾ÍÕâ
+
 void SJF()
 {
     int i,j;

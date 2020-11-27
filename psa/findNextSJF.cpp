@@ -14,7 +14,7 @@ int findNextSJF(job jobs[100],int length,int time)
     p=q=-1;
     minTime=minNeedTime=minReachTime=inf;
 
-    for(i=1;i<length;i++){
+    for(i=1;i<=length;i++){
         if(!jobs[i].visited){
             //第一种情况
             if(jobs[i].reach_time<=time&&jobs[i].need_time<=minNeedTime){
