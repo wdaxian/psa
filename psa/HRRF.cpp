@@ -9,6 +9,7 @@ using namespace std;
 
 void HRRF()
 {
+    cout<<"HRRF"<<endl;
     int i;
     int pre=1;
     jobs[1].finish_time=0;
@@ -49,5 +50,6 @@ void HRRF()
         cout<<"----------------"<<endl;
     }
     cout<<"-----All jobs are scheduled-----"<<endl;
+    cout<<endl;
     initial_jobs_again();
 }

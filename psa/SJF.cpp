@@ -10,6 +10,7 @@ using namespace std;
 
 void SJF()
 {
+    cout<<"SJF"<<endl;
     int i;
     int finish=inf; //完成时间
     for(i=1;i<=num;i++){
@@ -43,6 +44,7 @@ void SJF()
         cout<<"----------------"<<endl;
     }
     cout<<"-----All jobs are scheduled-----"<<endl;
+    cout<<endl;
     initial_jobs_again();
 
 

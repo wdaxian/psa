@@ -9,6 +9,7 @@ using namespace std;
 
 void FCFS()
 {
+    cout<<"FCFS"<<endl;
     int i;
 
     for(i=1;i<=num;i++){
@@ -53,6 +54,7 @@ void FCFS()
 
     }
     cout<<"-----All jobs are scheduled-----"<<endl;
+    cout<<endl;
     initial_jobs_again();
 
 }

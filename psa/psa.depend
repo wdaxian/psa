@@ -47,7 +47,7 @@
 
 1606292468 source:d:\desktop\psa\findnextsjf.cpp
 
-1606442893 source:f:\githubrepo\psa\psa\fcfs.cpp
+1606454120 source:f:\githubrepo\psa\psa\fcfs.cpp
 	<iostream>
 	<algorithm>
 	"node.h"
@@ -71,13 +71,14 @@
 	"node.h"
 	"global.h"
 
-1606442893 source:f:\githubrepo\psa\psa\main.cpp
+1606454196 source:f:\githubrepo\psa\psa\main.cpp
 	<iostream>
 	"node.h"
 	"initial_jobs.h"
 	"read_Jobdata.h"
 	"FCFS.h"
 	"SJF.h"
+	"HRRF.h"
 
 1606208083 f:\githubrepo\psa\psa\initial_jobs.h
 
@@ -96,7 +97,7 @@
 	"node.h"
 	"global.h"
 
-1606443900 source:f:\githubrepo\psa\psa\sjf.cpp
+1606454114 source:f:\githubrepo\psa\psa\sjf.cpp
 	<iostream>
 	<algorithm>
 	"node.h"
@@ -174,11 +175,11 @@
 
 1606299124 f:\githubrepo\psa\psa\sjf.h
 
-1606447493 source:f:\githubrepo\psa\psa\findnexthrrf.cpp
+1606455595 source:f:\githubrepo\psa\psa\findnexthrrf.cpp
 	"node.h"
 	"global.h"
 
-1606447518 source:f:\githubrepo\psa\psa\hrrf.cpp
+1606455135 source:f:\githubrepo\psa\psa\hrrf.cpp
 	<iostream>
 	"node.h"
 	"global.h"
@@ -201,4 +202,6 @@
 1606452616 c:\users\tao\desktop\psa\psa\findnexthrrf.h
 
 1606452616 c:\users\tao\desktop\psa\psa\hrrf.h
+
+1606446399 f:\githubrepo\psa\psa\hrrf.h
 

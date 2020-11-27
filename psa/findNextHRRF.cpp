@@ -24,7 +24,7 @@ int findNextHRRF(int pre)
     }
 
     for(j=i;j<=num;j++){    //和后面的作业比较
-        if(!jobs[i].visited){
+        if(!jobs[j].visited){
             if(jobs[current].reach_time<jobs[pre].finish_time){ //如果进程在上一个进程完成之前到达
                 if(jobs[j].excellent>jobs[current].excellent){
                     current=j;  //找出到达时间在上一个进程完成之前，优先权高的进程

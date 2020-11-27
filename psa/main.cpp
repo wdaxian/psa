@@ -13,14 +13,14 @@ int main()
     initial_jobs();
     read_Jobdata();
     while(1){
-        cout<<"process scheduling algorithm menu:"<<endl;
+        cout<<"Process scheduling algorithm menu:"<<endl;
         cout<<"1    FCFS    "<<endl;
         cout<<"2    SJF     "<<endl;
         cout<<"3    HRRF    "<<endl;
 
 
-
-        cout<<"7    exit     "<<endl;
+        cout<<"0    exit     "<<endl;
+        cout<<endl;
         cout<<"input number to choose:";
         cin>>n;
         cout<<endl;
@@ -34,7 +34,7 @@ int main()
         case 3:
             HRRF();
             break;
-        case 7:
+        case 0:
             exit(0);
             break;
         }
