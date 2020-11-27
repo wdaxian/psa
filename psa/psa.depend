@@ -71,7 +71,7 @@
 	"node.h"
 	"global.h"
 
-1606292009 source:f:\githubrepo\psa\psa\main.cpp
+1606317034 source:f:\githubrepo\psa\psa\main.cpp
 	<iostream>
 	"node.h"
 	"initial_jobs.h"
@@ -81,9 +81,11 @@
 
 1606209981 f:\githubrepo\psa\psa\read_jobdata.h
 
-1606292911 source:f:\githubrepo\psa\psa\read_jobdata.cpp
+1606442358 source:f:\githubrepo\psa\psa\read_jobdata.cpp
 	<fstream>
 	<iostream>
+	<fstream>
+	<vector>
 	"node.h"
 	"global.h"
 	"initial_jobs.h"
@@ -92,7 +94,7 @@
 	"node.h"
 	"global.h"
 
-1606308323 source:f:\githubrepo\psa\psa\sjf.cpp
+1606442358 source:f:\githubrepo\psa\psa\sjf.cpp
 	<iostream>
 	<algorithm>
 	"node.h"
