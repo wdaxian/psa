@@ -106,47 +106,48 @@
 
 1606308291 f:\githubrepo\psa\psa\findnextsjf.h
 
-1606376901 source:c:\users\tao\desktop\psa\psa\fcfs.cpp
+1606452616 source:c:\users\tao\desktop\psa\psa\fcfs.cpp
 	<iostream>
 	<algorithm>
 	"node.h"
 	"global.h"
 	"initial_jobs_again.h"
 
-1606308534 c:\users\tao\desktop\psa\psa\node.h
+1606452616 c:\users\tao\desktop\psa\psa\node.h
 
-1606378080 c:\users\tao\desktop\psa\psa\global.h
+1606452616 c:\users\tao\desktop\psa\psa\global.h
 
-1606308534 c:\users\tao\desktop\psa\psa\initial_jobs_again.h
+1606452616 c:\users\tao\desktop\psa\psa\initial_jobs_again.h
 
-1606378078 source:c:\users\tao\desktop\psa\psa\findnextsjf.cpp
+1606452616 source:c:\users\tao\desktop\psa\psa\findnextsjf.cpp
 	"node.h"
 	"global.h"
 
-1606376587 source:c:\users\tao\desktop\psa\psa\global.cpp
+1606452616 source:c:\users\tao\desktop\psa\psa\global.cpp
 	"node.h"
 
-1606308534 source:c:\users\tao\desktop\psa\psa\initial_jobs.cpp
-	"node.h"
-	"global.h"
-
-1606308534 source:c:\users\tao\desktop\psa\psa\initial_jobs_again.cpp
+1606452616 source:c:\users\tao\desktop\psa\psa\initial_jobs.cpp
 	"node.h"
 	"global.h"
 
-1606376944 source:c:\users\tao\desktop\psa\psa\main.cpp
+1606452616 source:c:\users\tao\desktop\psa\psa\initial_jobs_again.cpp
+	"node.h"
+	"global.h"
+
+1606452616 source:c:\users\tao\desktop\psa\psa\main.cpp
 	<iostream>
 	"node.h"
 	"initial_jobs.h"
 	"read_Jobdata.h"
 	"FCFS.h"
 	"SJF.h"
+	"HRRF.h"
 
-1606308534 c:\users\tao\desktop\psa\psa\initial_jobs.h
+1606452616 c:\users\tao\desktop\psa\psa\initial_jobs.h
 
-1606308534 c:\users\tao\desktop\psa\psa\read_jobdata.h
+1606452616 c:\users\tao\desktop\psa\psa\read_jobdata.h
 
-1606376821 source:c:\users\tao\desktop\psa\psa\read_jobdata.cpp
+1606452616 source:c:\users\tao\desktop\psa\psa\read_jobdata.cpp
 	<fstream>
 	<iostream>
 	<fstream>
@@ -155,7 +156,7 @@
 	"global.h"
 	"initial_jobs.h"
 
-1606375908 source:c:\users\tao\desktop\psa\psa\sjf.cpp
+1606452616 source:c:\users\tao\desktop\psa\psa\sjf.cpp
 	<iostream>
 	<algorithm>
 	"node.h"
@@ -163,11 +164,11 @@
 	"findNextSJF.h"
 	"initial_jobs_again.h"
 
-1606308534 c:\users\tao\desktop\psa\psa\findnextsjf.h
+1606452616 c:\users\tao\desktop\psa\psa\findnextsjf.h
 
-1606308534 c:\users\tao\desktop\psa\psa\fcfs.h
+1606452616 c:\users\tao\desktop\psa\psa\fcfs.h
 
-1606308534 c:\users\tao\desktop\psa\psa\sjf.h
+1606452616 c:\users\tao\desktop\psa\psa\sjf.h
 
 1606228572 f:\githubrepo\psa\psa\fcfs.h
 
@@ -185,4 +186,19 @@
 	"initial_jobs_again.h"
 
 1606447502 f:\githubrepo\psa\psa\findnexthrrf.h
+
+1606452616 source:c:\users\tao\desktop\psa\psa\findnexthrrf.cpp
+	"node.h"
+	"global.h"
+
+1606452616 source:c:\users\tao\desktop\psa\psa\hrrf.cpp
+	<iostream>
+	"node.h"
+	"global.h"
+	"findNextHRRF.h"
+	"initial_jobs_again.h"
+
+1606452616 c:\users\tao\desktop\psa\psa\findnexthrrf.h
+
+1606452616 c:\users\tao\desktop\psa\psa\hrrf.h
 
