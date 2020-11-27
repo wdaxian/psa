@@ -34,12 +34,8 @@
 		</Compiler>
 		<Unit filename="FCFS.cpp" />
 		<Unit filename="FCFS.h" />
-		<Unit filename="HRRF.cpp" />
-		<Unit filename="HRRF.h" />
 		<Unit filename="SJF.cpp" />
 		<Unit filename="SJF.h" />
-		<Unit filename="findNextHRRF.cpp" />
-		<Unit filename="findNextHRRF.h" />
 		<Unit filename="findNextSJF.cpp" />
 		<Unit filename="findNextSJF.h" />
 		<Unit filename="global.cpp" />
