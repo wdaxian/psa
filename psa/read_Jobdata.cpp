@@ -35,7 +35,7 @@ void read_Jobdata()
         //cout<<p[i];
     }
     //cout<<endl;
-    //cout<<jobs[2].number;
+    cout<<jobs[2].number;
 
 
 }
