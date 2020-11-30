@@ -40,6 +40,8 @@
 		<Unit filename="HRRF.h" />
 		<Unit filename="SJF.cpp" />
 		<Unit filename="SJF.h" />
+		<Unit filename="SRT.cpp" />
+		<Unit filename="SRT.h" />
 		<Unit filename="findNextFPF.cpp" />
 		<Unit filename="findNextFPF.h" />
 		<Unit filename="findNextHRRF.cpp" />

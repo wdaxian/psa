@@ -6,6 +6,7 @@
 #include "SJF.h"
 #include "HRRF.h"
 #include "FPF.h"
+#include "SRT.h"
 using namespace std;
 
 int main()
@@ -19,6 +20,7 @@ int main()
         cout<<"2    SJF     "<<endl;
         cout<<"3    HRRF    "<<endl;
         cout<<"4    FPF     "<<endl;
+        cout<<"5    SRT     "<<endl;
 
         cout<<"0    exit     "<<endl;
         cout<<endl;
@@ -38,6 +40,8 @@ int main()
         case 4:
             FPF();
             break;
+        case 5:
+            SRT();
         case 0:
             exit(0);
             break;
