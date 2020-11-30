@@ -9,7 +9,7 @@ void findNextSRT()
     for(int i=1;i<=num;i++){
         if(jobs[i].reach_time==time)
         {
-            ready[runcount]=i;
+            ready[runcount+1]=i;
             runcount++;
         }
     }

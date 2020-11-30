@@ -64,6 +64,8 @@
 		<Unit filename="initial_jobs_again.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="node.h" />
+		<Unit filename="printResult.cpp" />
+		<Unit filename="printResult.h" />
 		<Unit filename="read_Jobdata.cpp" />
 		<Unit filename="read_Jobdata.h" />
 		<Unit filename="test.txt" />

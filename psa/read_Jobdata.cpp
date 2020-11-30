@@ -6,7 +6,6 @@
 #include<vector>
 #include "node.h"
 #include "global.h"
-#include "initial_jobs.h"
 using namespace std;
 
 void read_Jobdata()

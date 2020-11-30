@@ -23,7 +23,7 @@ void initial_jobs()
         jobs[i].wtr_time=0;
         jobs[i].residual_time=0;
 
-        totalTime+=jobs[i].need_time;
+
     }
 
 
