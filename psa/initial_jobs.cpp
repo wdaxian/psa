@@ -6,7 +6,7 @@
 void initial_jobs()
 {
 
-    for(int i=0;i<100;i++){
+    for(int i=1;i<=num;i++){
 
         jobs[i].excellent=0;
         jobs[i].finish_time=0;
@@ -21,6 +21,11 @@ void initial_jobs()
         jobs[i].visited=false;
         jobs[i].wait_time=0;
         jobs[i].wtr_time=0;
+        jobs[i].residual_time=0;
+
+        totalTime+=jobs[i].need_time;
     }
+
+
 }
 

@@ -30,6 +30,8 @@ typedef struct node{
 
     bool reached;       //作业抵达时间
 
+    int residual_time;  //剩余服务时间
+
 }job;
 
 

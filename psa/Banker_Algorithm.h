@@ -1,0 +1,6 @@
+#ifndef BANKER_ALGORITHM_H_INCLUDED
+#define BANKER_ALGORITHM_H_INCLUDED
+
+void Banker_Algorithm();
+
+#endif // BANKER_ALGORITHM_H_INCLUDED
