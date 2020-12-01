@@ -12,7 +12,7 @@ int Banker_Algorithm(int i,int Request[5][3])
             cout<<"所需资源数超出其宣布的最大值！"<<endl;
         }
         else if(Request[i][m]>Available[m]){
-            cout<<"无足够资源，p["<<i<<"]需等待！"<<endl;
+            cout<<"无足够资源，P["<<i<<"]需等待！"<<endl;
         }
     }
 
@@ -22,5 +22,17 @@ int Banker_Algorithm(int i,int Request[5][3])
         Allocation[i][j]=Allocation[i][j]+Request[i][j];
         Need[i][j]=Need[i][j]-Request[i][j];
     }
+
+    //执行安全性算法
+    int n=Safe_Algorithm(Available,Need,Allocation);
+    cout<<endl;
+    if(n==PROGRESS){//有5个'true'返回1，表示此时刻安全
+        cout<<"此时刻是安全状态，可以分配资源给P["<<i<<"]"<<endl;
+    }
+    else{
+        cout<<"此时刻不是安全状态，不可分配资源"<<endl;
+    }
+
+    return n;
 
 }

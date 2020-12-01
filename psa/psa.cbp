@@ -70,6 +70,8 @@
 		<Unit filename="node.h" />
 		<Unit filename="printResult.cpp" />
 		<Unit filename="printResult.h" />
+		<Unit filename="printRunOrder.cpp" />
+		<Unit filename="printRunOrder.h" />
 		<Unit filename="read_Bankfile.cpp" />
 		<Unit filename="read_Bankfile.h" />
 		<Unit filename="read_Jobdata.cpp" />

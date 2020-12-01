@@ -225,7 +225,7 @@
 	"printResult.h"
 	"initial_jobs_again.h"
 
-1606827025 source:f:\githubrepo\psa\psa\banker_algorithm.cpp
+1606829968 source:f:\githubrepo\psa\psa\banker_algorithm.cpp
 	<iostream>
 	"global.h"
 	"Safe_Algorithm.h"
@@ -237,7 +237,7 @@
 
 1606744188 f:\githubrepo\psa\psa\show.h
 
-1606825735 source:f:\githubrepo\psa\psa\show.cpp
+1606827050 source:f:\githubrepo\psa\psa\show.cpp
 	<iostream>
 	"node.h"
 	"global.h"
@@ -289,6 +289,10 @@
 
 1606826919 f:\githubrepo\psa\psa\safe_algorithm.h
 
-1606827011 source:f:\githubrepo\psa\psa\safe_algorithm.cpp
+1606831280 source:f:\githubrepo\psa\psa\safe_algorithm.cpp
+	"global.h"
+
+1606831502 source:f:\githubrepo\psa\psa\printrunorder.cpp
+	<iostream>
 	"global.h"
 
