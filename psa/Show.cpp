@@ -1,4 +1,4 @@
-//½çÃæÏÔÊ¾
+//å±•ç¤ºä¸»ç•Œé¢
 
 #include <iostream>
 #include "node.h"
@@ -10,10 +10,16 @@
 #include "SRT.h"
 #include "LLF.h"
 #include "Banker_Algorithm.h"
+#include "show_BankerAlgorithm.h"
+#include "initial_jobs.h"
+#include "read_Jobdata.h"
 using namespace std;
 
 void Show()
 {
+    initial_jobs();
+    read_Jobdata();
+
     int n;
     while(1){
         cout<<"Process scheduling algorithm menu:"<<endl;
@@ -23,7 +29,7 @@ void Show()
         cout<<"4    FPF     "<<endl;
         cout<<"5    SRT     "<<endl;
         cout<<"6    LLF     "<<endl;
-        cout<<"7    Banker's Algorithm      "<<endl;
+        cout<<"7    Banker Algorithm      "<<endl;
         cout<<"0    exit     "<<endl;
         cout<<endl;
         cout<<"input number to choose:";
@@ -50,7 +56,7 @@ void Show()
             LLF();
             break;
         case 7:
-            Banker_Algorithm();
+            show_BankerAlgorithm();
             break;
         case 0:
             exit(0);

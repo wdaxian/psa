@@ -32,6 +32,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Alldata.txt" />
 		<Unit filename="Banker_Algorithm.cpp" />
 		<Unit filename="Banker_Algorithm.h" />
 		<Unit filename="FCFS.cpp" />
@@ -46,8 +47,11 @@
 		<Unit filename="SJF.h" />
 		<Unit filename="SRT.cpp" />
 		<Unit filename="SRT.h" />
+		<Unit filename="Safe_Algorithm.cpp" />
+		<Unit filename="Safe_Algorithm.h" />
 		<Unit filename="Show.cpp" />
 		<Unit filename="Show.h" />
+		<Unit filename="data.txt" />
 		<Unit filename="findNextFPF.cpp" />
 		<Unit filename="findNextFPF.h" />
 		<Unit filename="findNextHRRF.cpp" />
@@ -66,8 +70,12 @@
 		<Unit filename="node.h" />
 		<Unit filename="printResult.cpp" />
 		<Unit filename="printResult.h" />
+		<Unit filename="read_Bankfile.cpp" />
+		<Unit filename="read_Bankfile.h" />
 		<Unit filename="read_Jobdata.cpp" />
 		<Unit filename="read_Jobdata.h" />
+		<Unit filename="show_BankerAlgorithm.cpp" />
+		<Unit filename="show_BankerAlgorithm.h" />
 		<Unit filename="test.txt" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

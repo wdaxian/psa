@@ -1,6 +1,6 @@
 #ifndef BANKER_ALGORITHM_H_INCLUDED
 #define BANKER_ALGORITHM_H_INCLUDED
 
-void Banker_Algorithm();
+int Banker_Algorithm(int i,int Request[5][3]);
 
 #endif // BANKER_ALGORITHM_H_INCLUDED

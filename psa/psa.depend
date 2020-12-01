@@ -47,7 +47,7 @@
 
 1606292468 source:d:\desktop\psa\findnextsjf.cpp
 
-1606741690 source:f:\githubrepo\psa\psa\fcfs.cpp
+1606744188 source:f:\githubrepo\psa\psa\fcfs.cpp
 	<iostream>
 	<algorithm>
 	"node.h"
@@ -55,16 +55,17 @@
 	"printResult.h"
 	"initial_jobs_again.h"
 
-1606731673 f:\githubrepo\psa\psa\node.h
+1606744188 f:\githubrepo\psa\psa\node.h
 
-1606730610 f:\githubrepo\psa\psa\global.h
+1606825250 f:\githubrepo\psa\psa\global.h
+	"node.h"
 
 1606228260 f:\githubrepo\psa\psa\initial_jobs_again.h
 
-1606742981 source:f:\githubrepo\psa\psa\global.cpp
+1606825175 source:f:\githubrepo\psa\psa\global.cpp
 	"node.h"
 
-1606741967 source:f:\githubrepo\psa\psa\initial_jobs.cpp
+1606744188 source:f:\githubrepo\psa\psa\initial_jobs.cpp
 	"node.h"
 	"global.h"
 
@@ -72,17 +73,15 @@
 	"node.h"
 	"global.h"
 
-1606730828 source:f:\githubrepo\psa\psa\main.cpp
+1606825413 source:f:\githubrepo\psa\psa\main.cpp
 	<iostream>
 	"Show.h"
-	"initial_jobs.h"
-	"read_Jobdata.h"
 
 1606208083 f:\githubrepo\psa\psa\initial_jobs.h
 
 1606209981 f:\githubrepo\psa\psa\read_jobdata.h
 
-1606742106 source:f:\githubrepo\psa\psa\read_jobdata.cpp
+1606744188 source:f:\githubrepo\psa\psa\read_jobdata.cpp
 	<fstream>
 	<iostream>
 	<fstream>
@@ -94,7 +93,7 @@
 	"node.h"
 	"global.h"
 
-1606741383 source:f:\githubrepo\psa\psa\sjf.cpp
+1606744188 source:f:\githubrepo\psa\psa\sjf.cpp
 	<iostream>
 	<algorithm>
 	"node.h"
@@ -177,7 +176,7 @@
 	"node.h"
 	"global.h"
 
-1606741479 source:f:\githubrepo\psa\psa\hrrf.cpp
+1606744188 source:f:\githubrepo\psa\psa\hrrf.cpp
 	<iostream>
 	"node.h"
 	"global.h"
@@ -208,7 +207,7 @@
 	"node.h"
 	"global.h"
 
-1606741544 source:f:\githubrepo\psa\psa\fpf.cpp
+1606744188 source:f:\githubrepo\psa\psa\fpf.cpp
 	<iostream>
 	"node.h"
 	"global.h"
@@ -218,7 +217,7 @@
 
 1606467816 f:\githubrepo\psa\psa\findnextfpf.h
 
-1606740723 source:f:\githubrepo\psa\psa\srt.cpp
+1606744188 source:f:\githubrepo\psa\psa\srt.cpp
 	<iostream>
 	"node.h"
 	"global.h"
@@ -226,17 +225,19 @@
 	"printResult.h"
 	"initial_jobs_again.h"
 
-1606726988 source:f:\githubrepo\psa\psa\banker_algorithm.cpp
+1606827025 source:f:\githubrepo\psa\psa\banker_algorithm.cpp
 	<iostream>
+	"global.h"
+	"Safe_Algorithm.h"
 
-1606727723 source:f:\githubrepo\psa\psa\llf.cpp
+1606744188 source:f:\githubrepo\psa\psa\llf.cpp
 	<iostream>
 	"node.h"
 	"global.h"
 
-1606727339 f:\githubrepo\psa\psa\show.h
+1606744188 f:\githubrepo\psa\psa\show.h
 
-1606730903 source:f:\githubrepo\psa\psa\show.cpp
+1606825735 source:f:\githubrepo\psa\psa\show.cpp
 	<iostream>
 	"node.h"
 	"global.h"
@@ -247,25 +248,47 @@
 	"SRT.h"
 	"LLF.h"
 	"Banker_Algorithm.h"
+	"show_BankerAlgorithm.h"
+	"initial_jobs.h"
+	"read_Jobdata.h"
 
 1606456547 f:\githubrepo\psa\psa\fpf.h
 
 1606704471 f:\githubrepo\psa\psa\srt.h
 
-1606727106 f:\githubrepo\psa\psa\llf.h
+1606744188 f:\githubrepo\psa\psa\llf.h
 
-1606726930 f:\githubrepo\psa\psa\banker_algorithm.h
+1606825956 f:\githubrepo\psa\psa\banker_algorithm.h
 
-1606728779 f:\githubrepo\psa\psa\findnextsrt.h
+1606744188 f:\githubrepo\psa\psa\findnextsrt.h
 
-1606742991 source:f:\githubrepo\psa\psa\findnextsrt.cpp
+1606744188 source:f:\githubrepo\psa\psa\findnextsrt.cpp
 	"node.h"
 	"global.h"
 
-1606739901 f:\githubrepo\psa\psa\printresult.h
+1606744188 f:\githubrepo\psa\psa\printresult.h
 
-1606740901 source:f:\githubrepo\psa\psa\printresult.cpp
+1606744188 source:f:\githubrepo\psa\psa\printresult.cpp
 	<iostream>
 	"node.h"
+	"global.h"
+
+1606822776 f:\githubrepo\psa\psa\read_bankfile.h
+
+1606824073 source:f:\githubrepo\psa\psa\read_bankfile.cpp
+	<iostream>
+	<fstream>
+	"global.h"
+
+1606826701 source:f:\githubrepo\psa\psa\show_bankeralgorithm.cpp
+	<iostream>
+	"global.h"
+	"read_Bankfile.h"
+
+1606825630 f:\githubrepo\psa\psa\show_bankeralgorithm.h
+
+1606826919 f:\githubrepo\psa\psa\safe_algorithm.h
+
+1606827011 source:f:\githubrepo\psa\psa\safe_algorithm.cpp
 	"global.h"
 
