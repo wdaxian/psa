@@ -47,6 +47,8 @@
 		<Unit filename="SJF.h" />
 		<Unit filename="SRT.cpp" />
 		<Unit filename="SRT.h" />
+		<Unit filename="SRTF.cpp" />
+		<Unit filename="SRTF.h" />
 		<Unit filename="Safe_Algorithm.cpp" />
 		<Unit filename="Safe_Algorithm.h" />
 		<Unit filename="Show.cpp" />
