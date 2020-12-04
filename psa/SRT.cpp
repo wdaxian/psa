@@ -12,6 +12,7 @@ void SRT()
 {
     cout<<"SRT"<<endl;
 
+    int totalTime;
     time=0;//记录当前时间
     runcount=0;
     int i,j;
@@ -21,15 +22,16 @@ void SRT()
     }
 
 
-    for(i=1;i<=num;i++){
-        ready[i]=i;
+
+    for(i=0;i<num;i++){
+        ready[i]=i+1;
     }
 
     int minRemainTime;//记录就绪队列中最短剩余时间进程的剩余时间
     int index;//记录就绪队列中最短剩余时间进程的下标
 
     while(time<=totalTime){
-        findNextSRT();
+        findNextSRT(time);
         if(runcount==0){//就绪队列中没有进程
             time++;
         }

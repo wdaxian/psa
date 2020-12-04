@@ -20,6 +20,7 @@ void Show()
     initial_jobs();
     read_Jobdata();
 
+
     int n;
     while(1){
         cout<<"Process scheduling algorithm menu:"<<endl;

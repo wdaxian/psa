@@ -3,13 +3,15 @@
 #include "node.h"
 #include "global.h"
 
-void findNextSRT()
+void findNextSRT(int time)
 {
+
     //将当前time时刻到达的进程加入就绪队列
     for(int i=1;i<=num;i++){
+
         if(jobs[i].reach_time==time)
         {
-            ready[runcount+1]=i;
+            ready[runcount]=i;
             runcount++;
         }
     }

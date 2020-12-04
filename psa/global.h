@@ -6,7 +6,7 @@
 #define inf 0x3f3f3f
 extern int num;     //进程数
 extern int time;    //全局时间变量
-extern int totalTime;//一共的执行时间
+//extern int totalTime;//一共的执行时间
 extern job jobs[];  //作业
 extern int ready[]; //就绪队列
 extern int runcount;//就绪队列中进程数量
