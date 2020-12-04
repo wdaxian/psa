@@ -20,6 +20,8 @@ typedef struct node{
 
     int tr_time;        //周转时间
 
+    int endTime;//结束时间
+
     double wtr_time;    //带权周转时间
 
     int run_time;       //作业累计已执行时间
@@ -31,6 +33,10 @@ typedef struct node{
     bool reached;       //作业抵达时间
 
     int residual_time;  //剩余服务时间
+
+    bool ready=false;  //是否处于就绪状态
+
+    int rt;             //剩余服务时间
 
 }job;
 

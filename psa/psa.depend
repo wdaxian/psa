@@ -104,69 +104,66 @@
 
 1606308291 f:\githubrepo\psa\psa\findnextsjf.h
 
-1606452616 source:c:\users\tao\desktop\psa\psa\fcfs.cpp
+1606832747 source:c:\users\tao\desktop\psa\psa\fcfs.cpp
 	<iostream>
 	<algorithm>
 	"node.h"
 	"global.h"
+	"printResult.h"
 	"initial_jobs_again.h"
 
-1606452616 c:\users\tao\desktop\psa\psa\node.h
+1606916774 c:\users\tao\desktop\psa\psa\node.h
 
-1606452616 c:\users\tao\desktop\psa\psa\global.h
+1606832747 c:\users\tao\desktop\psa\psa\global.h
+	"node.h"
 
-1606452616 c:\users\tao\desktop\psa\psa\initial_jobs_again.h
+1606832747 c:\users\tao\desktop\psa\psa\initial_jobs_again.h
 
-1606452616 source:c:\users\tao\desktop\psa\psa\findnextsjf.cpp
+1606832747 source:c:\users\tao\desktop\psa\psa\findnextsjf.cpp
 	"node.h"
 	"global.h"
 
-1606452616 source:c:\users\tao\desktop\psa\psa\global.cpp
+1606832747 source:c:\users\tao\desktop\psa\psa\global.cpp
 	"node.h"
 
-1606452616 source:c:\users\tao\desktop\psa\psa\initial_jobs.cpp
-	"node.h"
-	"global.h"
-
-1606452616 source:c:\users\tao\desktop\psa\psa\initial_jobs_again.cpp
+1606918219 source:c:\users\tao\desktop\psa\psa\initial_jobs.cpp
 	"node.h"
 	"global.h"
 
-1606452616 source:c:\users\tao\desktop\psa\psa\main.cpp
+1606832747 source:c:\users\tao\desktop\psa\psa\initial_jobs_again.cpp
+	"node.h"
+	"global.h"
+
+1606832747 source:c:\users\tao\desktop\psa\psa\main.cpp
 	<iostream>
-	"node.h"
-	"initial_jobs.h"
-	"read_Jobdata.h"
-	"FCFS.h"
-	"SJF.h"
-	"HRRF.h"
+	"Show.h"
 
-1606452616 c:\users\tao\desktop\psa\psa\initial_jobs.h
+1606832747 c:\users\tao\desktop\psa\psa\initial_jobs.h
 
-1606452616 c:\users\tao\desktop\psa\psa\read_jobdata.h
+1606832747 c:\users\tao\desktop\psa\psa\read_jobdata.h
 
-1606452616 source:c:\users\tao\desktop\psa\psa\read_jobdata.cpp
+1606832747 source:c:\users\tao\desktop\psa\psa\read_jobdata.cpp
 	<fstream>
 	<iostream>
 	<fstream>
 	<vector>
 	"node.h"
 	"global.h"
-	"initial_jobs.h"
 
-1606452616 source:c:\users\tao\desktop\psa\psa\sjf.cpp
+1606832747 source:c:\users\tao\desktop\psa\psa\sjf.cpp
 	<iostream>
 	<algorithm>
 	"node.h"
 	"global.h"
 	"findNextSJF.h"
+	"printResult.h"
 	"initial_jobs_again.h"
 
-1606452616 c:\users\tao\desktop\psa\psa\findnextsjf.h
+1606832747 c:\users\tao\desktop\psa\psa\findnextsjf.h
 
-1606452616 c:\users\tao\desktop\psa\psa\fcfs.h
+1606832747 c:\users\tao\desktop\psa\psa\fcfs.h
 
-1606452616 c:\users\tao\desktop\psa\psa\sjf.h
+1606832747 c:\users\tao\desktop\psa\psa\sjf.h
 
 1606228572 f:\githubrepo\psa\psa\fcfs.h
 
@@ -186,20 +183,21 @@
 
 1606447502 f:\githubrepo\psa\psa\findnexthrrf.h
 
-1606452616 source:c:\users\tao\desktop\psa\psa\findnexthrrf.cpp
+1606832747 source:c:\users\tao\desktop\psa\psa\findnexthrrf.cpp
 	"node.h"
 	"global.h"
 
-1606452616 source:c:\users\tao\desktop\psa\psa\hrrf.cpp
+1606832747 source:c:\users\tao\desktop\psa\psa\hrrf.cpp
 	<iostream>
 	"node.h"
 	"global.h"
 	"findNextHRRF.h"
+	"printResult.h"
 	"initial_jobs_again.h"
 
-1606452616 c:\users\tao\desktop\psa\psa\findnexthrrf.h
+1606832747 c:\users\tao\desktop\psa\psa\findnexthrrf.h
 
-1606452616 c:\users\tao\desktop\psa\psa\hrrf.h
+1606832747 c:\users\tao\desktop\psa\psa\hrrf.h
 
 1606446399 f:\githubrepo\psa\psa\hrrf.h
 
@@ -299,5 +297,116 @@
 	<iostream>
 	"global.h"
 
+<<<<<<< HEAD
 1606829503 f:\githubrepo\psa\psa\printrunorder.h
+=======
+1606832747 source:c:\users\tao\desktop\psa\psa\banker_algorithm.cpp
+	<iostream>
+	"global.h"
+	"Safe_Algorithm.h"
+
+1606832747 c:\users\tao\desktop\psa\psa\safe_algorithm.h
+
+1606832747 c:\users\tao\desktop\psa\psa\printresult.h
+
+1606832747 source:c:\users\tao\desktop\psa\psa\findnextfpf.cpp
+	"node.h"
+	"global.h"
+
+1606832747 source:c:\users\tao\desktop\psa\psa\findnextsrt.cpp
+	"node.h"
+	"global.h"
+
+1606832747 source:c:\users\tao\desktop\psa\psa\fpf.cpp
+	<iostream>
+	"node.h"
+	"global.h"
+	"findNextFPF.h"
+	"printResult.h"
+	"initial_jobs_again.h"
+
+1606832747 c:\users\tao\desktop\psa\psa\findnextfpf.h
+
+1606832747 source:c:\users\tao\desktop\psa\psa\llf.cpp
+	<iostream>
+	"node.h"
+	"global.h"
+
+1606832747 c:\users\tao\desktop\psa\psa\show.h
+
+1606832747 source:c:\users\tao\desktop\psa\psa\printresult.cpp
+	<iostream>
+	"node.h"
+	"global.h"
+
+1606832747 source:c:\users\tao\desktop\psa\psa\read_bankfile.cpp
+	<iostream>
+	<fstream>
+	"global.h"
+
+1606832747 source:c:\users\tao\desktop\psa\psa\safe_algorithm.cpp
+	"global.h"
+
+1606917759 source:c:\users\tao\desktop\psa\psa\show.cpp
+	<iostream>
+	"node.h"
+	"global.h"
+	"FCFS.h"
+	"SJF.h"
+	"HRRF.h"
+	"FPF.h"
+	"SRT.h"
+	"LLF.h"
+	"Banker_Algorithm.h"
+	"show_BankerAlgorithm.h"
+	"initial_jobs.h"
+	"read_Jobdata.h"
+	"SRTF.h"
+
+1606832747 c:\users\tao\desktop\psa\psa\fpf.h
+
+1606832747 c:\users\tao\desktop\psa\psa\srt.h
+
+1606832747 c:\users\tao\desktop\psa\psa\llf.h
+
+1606832747 c:\users\tao\desktop\psa\psa\banker_algorithm.h
+
+1606832747 c:\users\tao\desktop\psa\psa\show_bankeralgorithm.h
+
+1606832747 source:c:\users\tao\desktop\psa\psa\show_bankeralgorithm.cpp
+	<iostream>
+	"global.h"
+	"read_Bankfile.h"
+	"Banker_Algorithm.h"
+	"Safe_Algorithm.h"
+	"printRunOrder.h"
+
+1606832747 c:\users\tao\desktop\psa\psa\read_bankfile.h
+
+1606832747 c:\users\tao\desktop\psa\psa\printrunorder.h
+
+1606832747 source:c:\users\tao\desktop\psa\psa\srt.cpp
+	<iostream>
+	"node.h"
+	"global.h"
+	"findNextSRT.h"
+	"printResult.h"
+	"initial_jobs_again.h"
+
+1606832747 c:\users\tao\desktop\psa\psa\findnextsrt.h
+
+1606832747 source:c:\users\tao\desktop\psa\psa\printrunorder.cpp
+	<iostream>
+	"global.h"
+
+1606918765 source:c:\users\tao\desktop\psa\psa\srtf.cpp
+	<iostream>
+	<algorithm>
+	"node.h"
+	"global.h"
+	"printResult.h"
+	"initial_jobs_again.h"
+
+1606917626 c:\users\tao\desktop\psa\psa\srtf.h
+>>>>>>> d319e4c748dfb0a81ee4edbc66ca8f9329a251e6
 

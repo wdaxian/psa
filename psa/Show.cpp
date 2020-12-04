@@ -13,6 +13,7 @@
 #include "show_BankerAlgorithm.h"
 #include "initial_jobs.h"
 #include "read_Jobdata.h"
+#include "SRTF.h"
 using namespace std;
 
 void Show()
@@ -58,6 +59,9 @@ void Show()
             break;
         case 7:
             show_BankerAlgorithm();
+            break;
+        case 8:
+            SRTF();
             break;
         case 0:
             exit(0);
